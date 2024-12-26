@@ -50,20 +50,45 @@ step-6 Run the program.
 
 **PROGRAM**
 
- Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by:JOTHIMANI P
+ Program for flipflops and verify its truth table in quartus using Verilog programming. 
+
+ ```
+
+Developed by:JOTHIMANI P
  
 RegisterNumber: 24900871
+```
 
-![image](https://github.com/user-attachments/assets/09cfe9d0-e89a-4759-976e-5e2e04b276fc)
+```
+module experiment7(J,K,c1k,q,qbar);
+input J,K,c1k;
+output reg q;
+output reg qbar;
+initial q=0;
+initial qbar=1;
+always @(posedge c1k)
+begin
+q=((J&(~q)))|((~K)&q);
+qbar=~q;
+end
+endmodule
+
+```
 
 
 **RTL LOGIC FOR FLIPFLOPS**
 
-![image](https://github.com/user-attachments/assets/e7702376-8cb1-4015-84ae-bd9afe7e7de2) 
+
+![image](https://github.com/user-attachments/assets/aa801c7f-5a5e-4f35-a8bb-55c32a8f0df8)
+
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
-![image](https://github.com/user-attachments/assets/468e6f2c-2b01-414f-98ab-da04d84d4086)
+
+
+![image](https://github.com/user-attachments/assets/7e4bf0c9-e2b2-433f-879e-1ceabcc2bea4)
+
+
 
 **RESULTS**
 
