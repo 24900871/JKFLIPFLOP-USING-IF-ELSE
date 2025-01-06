@@ -1,3 +1,7 @@
+Developed by:JOTHIMANI P
+ 
+RegisterNumber: 24900871
+
 # EX 5 : IMPLEMENTATION OF JK FLIPFLOP 
 
 **AIM:** 
@@ -54,9 +58,7 @@ step-6 Run the program.
 
  ```
 
-Developed by:JOTHIMANI P
- 
-RegisterNumber: 24900871
+
 ```
 
 ```
